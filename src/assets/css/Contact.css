@@ -1,0 +1,110 @@
+.contact-contant {
+    background: linear-gradient(to right, rgba(245, 245, 245, .8), rgba(245, 245, 245, .8)), url('../images/backgroud.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 50px;
+}
+
+.contact-contant p {
+    font-size: 1.2rem;
+    padding-bottom: 40px;
+}
+
+.styles_scroll-to-top__2A70v {
+    bottom: 80px !important;
+}
+
+.contact-contant p {
+    width: 70%;
+    display: inline-block;
+}
+
+.contact_form label {
+    display: block;
+    text-align: left;
+    padding-top: 15px;
+}
+
+
+.contact_form input {
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+
+.contact_form textarea {
+    color: #333;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid #ebebeb;
+    font-size: 1rem;
+    letter-spacing: 0;
+    background: #f0f0f0;
+    border-radius: 5px;
+    font-weight: 600;
+    outline: none;
+}
+
+.submit_button {
+    background-color: #7843e9 !important;
+    width: 40% !important;
+    color: white !important;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_form {
+    text-align: center;
+    padding: 2rem;
+    background-color: white;
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    background: #fff;
+    max-width: 80rem;
+    text-align: right;
+    border-radius: 7px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .contact_form {
+        width: 90%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+
+    .contact_form {
+        width: 70%;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    .contact_form {
+        width: 60%;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

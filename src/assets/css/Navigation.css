@@ -1,0 +1,103 @@
+.logo {
+    font-family: 'Bitter', serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.logo b {
+    color: #FFB400;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Small-devices-contant {
+        display: none;
+    }
+
+    .Extra-small-devices-contant {
+        width: 100%;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        background-color: white;
+        z-index: 3;
+    }
+
+    .mobile_menu {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .mobile_menu a {
+        color: black;
+        text-decoration: none;
+        flex: 1;
+        font-size: 17px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .mobile_menu a:hover {
+        color: #FFB400 !important;
+    }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .is-sticky {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        box-shadow: 0 2px 24px 0 rgb(0 0 0 / 15%);
+        background-color: #FFFFFF !important;
+        animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .Extra-small-devices-contant {
+        display: none;
+    }
+
+    .navbar-nav a {
+        text-decoration: none;
+        color: black;
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 500;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+        cursor: pointer;
+
+    }
+
+
+    .navbar-nav a:hover {
+        color: #FFB400;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .navbar-nav a {
+        text-decoration: none;
+        color: black;
+        padding: 0px 15px;
+        font-size: 18px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .navbar-nav a:hover {
+        color: black;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}

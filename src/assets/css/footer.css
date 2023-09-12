@@ -1,0 +1,21 @@
+.social_media h4 {
+    color: white;
+}
+
+.social_media {
+    text-align: center;
+}
+
+.social_media_icons {
+    padding: 15px 0px;
+}
+
+.social_media_icons ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.Social_icons {
+    color: white;
+    font-size: 2rem;
+}

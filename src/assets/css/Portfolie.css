@@ -1,0 +1,116 @@
+.Portfolie_contant {
+    text-align: center;
+}
+
+.portfolie_container {
+    padding-bottom: 80px;
+}
+
+.fillter_button ul li {
+    display: inline-block;
+    list-style: none;
+    padding: 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.categorie-active-button {
+    color: #FFB400 !important;
+    border-bottom: 2px solid #FFB400;
+}
+
+.portfolie_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+
+.portfolie_item {
+    width: 300px;
+    height: 280px;
+    overflow: hidden;
+    background-color: white;
+    cursor: pointer;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.product_link {
+    background-color: white;
+    width: 300px !important;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px 10px;
+    font-weight: 600;
+}
+
+.product_link a {
+    color: black;
+    font-size: 30px;
+}
+
+.portfolie_item img.image-scroll {
+    /* object-fit: cover; */
+    overflow: hidden;
+    transition: transform 1s ease-in-out;
+    width: 300px;
+}
+
+.portfolie_item:hover img {
+    transform: translateY(calc(-100% + 200px));
+    transition: transform 3s ease-in-out;
+}
+
+.portfolie_item img {
+    width: 100%;
+
+}
+
+.is-animation {
+    animation: .6s zoom-in;
+}
+
+@keyframes zoom-in {
+    0% {
+        transform: scale(.1);
+    }
+
+    100% {
+        transform: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .Portfolie_contant p {
+        width: 75%;
+        display: inline-block;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) {
+    .Portfolie_contant p {
+        width: 85%;
+        display: inline-block;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .Portfolie_contant p {
+        width: 65%;
+        display: inline-block;
+    }
+
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
